@@ -1,0 +1,46 @@
+.spanColor1 {
+	color: red;
+	font-style: oblique;
+}
+
+.spanColor2 {
+	color: yellow;
+}
+
+.css {
+	color: blue;
+}
+
+.jest {
+	color: violet;
+}
+
+.wspanialy {
+	color: yellow;
+}
+div {
+	background-color: blue;
+}
+
+.divred {
+	background-color: red;
+}
+
+.hsla {
+	background-color: hsla(0, 100%, 25%, .25);
+}
+.jbu {
+	background-color: red;
+	width: 200px;
+
+
+}
+
+.jbu1 {
+	background-color: blue;
+	width: 50%;
+}
+
+.jbu2 {
+	background-color: yellow;
+	width: 20%;
