@@ -1,0 +1,35 @@
+p {
+	font-size: 12px !important;
+}
+
+p {
+	font-size: 40px;
+}
+
+p:nth-child(2) {
+	font-size: 20px;
+}
+
+p:nth-child(3) {
+	font-size: 100px;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.yellow span{
+	background-color: yellow;
+}
+
+#divid {
+	background-color: red;
+}
+
+div {
+	background-color: blue;
+}
+
+.divclass {
+	background-color:  green;
+}

@@ -1,0 +1,28 @@
+div {
+	background-color: rgb(135, 25, 110);
+	background-color: rgba(135, 25, 110, .3);
+	width: 100%px;
+	height: 200px;
+}
+
+/*div {
+	background-color: rgb(135, 25, 110);
+	opacity: .3;
+} 
+tekst też bleknie */
+
+div {
+	background: rgba(147,206,222,1);
+	background: -moz-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 74%, rgba(75,166,189,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(147,206,222,1)), color-stop(74%, rgba(117,189,209,1)), color-stop(100%, rgba(75,166,189,1)));
+	background: -webkit-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 74%, rgba(75,166,189,1) 100%);
+	background: -o-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 74%, rgba(75,166,189,1) 100%);
+	background: -ms-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 74%, rgba(75,166,189,1) 100%);
+	background: linear-gradient(to bottom, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 74%, rgba(75,166,189,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#4ba6bd', GradientType=0 );
+}
+.divimage{
+	height: 200px;
+	width: 100%;
+	background: url('../img/kot.jpg') center / contain no-repeat white; 
+ }

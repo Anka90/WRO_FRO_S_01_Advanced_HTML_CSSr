@@ -1,0 +1,66 @@
+/*div {
+	width: 400px;
+	height: 300px;
+	border-radius: 50%;
+	text-align: center;
+	display:table-cell;
+	vertical-align: middle;
+	padding: 10px;
+	
+}
+
+div:visited {
+	background-color: white;
+	box-shadow: 65px 51px 119px 0px rgba(50,71,207,1);
+}
+div:hover {
+	background-color: blue;
+}
+
+div:active {
+	background-color: white;
+	box-shadow: 65px 51px 119px 0px rgba(50,71,207,1);
+}
+
+
+a {
+	border: 1px solid yellow;
+	background-color: yellow;
+	border-radius: 25%;
+	text-decoration: none;
+}
+
+a:visited{
+	background-color: grey;
+}
+a:hover {
+	background-color: green;
+}*/
+
+#navigation {
+  display: inline-block;
+  width: 75px;
+  background-color: yellow;
+}
+ul li:first-child {
+  border-radius: 20% 0 0 20%;
+}
+
+ul li:last-child {
+	border-radius: 0 20% 20% 0;
+}
+
+#zebra p:nth-child(2n+1) {
+	background-color: grey;
+}
+#other div:first-child {
+	color: green;
+}
+
+#other div:last-child {
+	color:blue;
+}
+
+#form_end div:nth-last-child(2n+3) {
+	background-color: orange;
+}

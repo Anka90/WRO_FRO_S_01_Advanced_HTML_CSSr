@@ -1,0 +1,39 @@
+div {
+	/*elipsa
+	width: 300px;
+	height: 150px;
+	border: 1px solid red;
+	border-radius: 50%;
+	text-align: center;
+	display:table-cell;
+	vertical-align: middle;
+}*/
+	/*koło
+	width: 300px;
+	height: 300px;
+	border: 1px solid red;
+	border-radius: 50%;
+	text-align: center;
+	display:table-cell;
+	vertical-align: middle;
+	
+}*/
+	/*limonka
+	height: 200px;
+	width: 200px;
+	border-radius: 5px 50px 5px 50px;
+	border: 1px solid #bad955;
+	background-color: #bad955;
+	text-align: center;
+	display:table-cell;
+	vertical-align: middle;
+}
+*/
+/*polecenie 2*/
+	height:300px;
+	width: 300px;
+	border: 1px red;
+	/*box-shadow: 5px 5px 0 0 red;*/
+	box-shadow: -10px -10px 150px 50px blue, 0 10px 0 0 rgba(255,0,0,.15), 20px 20px 0px 0px green;
+
+}

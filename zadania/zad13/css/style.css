@@ -1,0 +1,17 @@
+tr:first-child {
+	background-color: blue;
+	color: white;
+	font-size: bold;
+}
+
+tr:nth-of-type(2n+1):not(.header) {
+	background-color: #DCECFC;
+}
+
+tr:nth-of-type(2n+2):not(.header) {
+	background-color: #3e8cd2;
+}
+
+td:hover:not(.header) {
+	background-color: red;
+}

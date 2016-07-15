@@ -1,0 +1,43 @@
+.colorspanone {
+	color: red;
+}
+
+.colorspantwo{
+	color: blue;
+}
+.css {
+	color: pink;
+}
+
+.jest {
+	color: violet;
+}
+
+.wspanialy {
+	color: blue;
+}
+
+.rgb {
+	background-color: rgba(234,46,46,.25); /*#eab5a4;*/
+}
+
+.hsla {
+	color: hsla(60%, 60%, 50%, .75);
+}
+
+.container {
+	width: 200px;
+	background-color: #AAF63D;
+}
+
+.container p:first-child {
+	background-color: #f6cc2e;
+	/*width: 50%;*/
+	font-size: 2em;
+}
+
+.container p:nth-child(2) {
+	background-color: #d9c7c6;
+	font-size: 3rem;
+	/*width: 20%;*/
+}

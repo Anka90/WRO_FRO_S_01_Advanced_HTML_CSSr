@@ -1,0 +1,66 @@
+* {
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.ojezu{
+	width: 1000px;
+	margin:0 auto;
+	position: relative;
+}
+
+.clearfix::before, .clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.obrazek {
+	background: url("../images/jez.jpg") center / cover no-repeat white;
+	width: 100px;
+	height: 100px;
+	float:left;
+	border-radius: 50%;
+}
+
+.obrazek2 {
+	background: url("../images/jez.jpg") center / cover no-repeat white;
+	width: 100px;
+	height: 100px;
+	bottom: 0;
+    right: 0;
+    margin: -50px;
+ 	float:right;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.opis2{
+	border: 1px solid blue;
+	padding: 20px;
+}
+
+.jez1 {
+	background: url("../images/jez.jpg") center / cover no-repeat white;
+	width:100px;
+    height:100px;
+    top: 0;
+    margin: 0;
+    position:absolute;
+    z-index:2;
+    border-radius: 50%;
+    
+}
+.jez2 {
+	background: url("../images/jez.jpg") center / cover no-repeat white;
+	width:100px;
+    height:100px;
+    top: 1;
+    position:absolute;
+    z-index:1;
+    border-radius: 50%;
+    margin: 0;
+}
+

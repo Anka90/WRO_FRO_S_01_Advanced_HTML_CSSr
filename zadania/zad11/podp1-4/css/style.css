@@ -1,0 +1,38 @@
+div {
+	width: 100px;
+	height: 50px;
+	border: 1px solid black;
+}
+.gornydiv{
+	width: 800px;
+	border: 1px solid red;
+}
+
+
+.left {
+	float: left;
+	
+}
+.right {
+	/*float: right;*/
+	float: left;
+}
+.trzeci {
+	clear: left;
+}
+
+ul {
+	/*list-style-type: square;*/
+	list-style-type: none;
+	margin: 50px;
+	float:right;
+}
+
+li {
+	margin: 20px;
+	display: inline-block;
+	float: left;
+	text-transform: uppercase;
+	color: #116493;
+}
+
