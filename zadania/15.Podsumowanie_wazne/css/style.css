@@ -1,0 +1,130 @@
+* {
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1000px;
+	margin:0 auto;
+}
+
+.clearfix::before, .clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+header {
+	width: 100%;
+	background-color: black;
+}
+
+header.container {
+	padding:  30px 0 20px 0;
+}
+
+.logo {
+	float:left;
+	color: white;
+	font-size: 40px;
+}
+
+nav {
+	float: right;
+	padding: 20px;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+header a:link, header a:visited {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header a:hover {
+	text-decoration: underline;
+}
+
+header a:active {
+	color: red;
+}
+
+section{
+	width: 100%;
+}
+
+#about {
+	background: url("http://nakaszubach.info/wp-content/uploads/2015/02/Jezioro-Dobre.jpg") center / cover no-repeat white;
+}
+
+.about-left {
+	float: left;
+	width: 499px;
+}
+
+.about-left img {
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	margin: 50px auto;
+}
+
+.about-right {
+	float: left;
+	height: 400px;
+	width: 499px;
+}
+
+.about-right h1 {
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+.about-right p {
+	line-height: 20px;
+	margin-top: 50px;
+}
+#gallery {
+	background-color: black;
+	height: 500px;
+}
+
+.gallery-image {
+	float: left;
+
+	width: 300px;
+	height: 200px;
+}
+
+.gallery-image img {
+	display: block;
+	width: 300px;
+	height: 200px;
+	margin-top: 150px;
+}
+
+.gallery-image:first-child, .gallery-image:nth-child(2)  {
+	margin-right: 50px;
+}
+
+
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	padding: 15px 0;
+}
+
+.contact-left {
+	float: left;
+}
+
+.contact-right {
+	float: right;
+}
